@@ -1,10 +1,24 @@
+@font-face {
+    font-family: "Squidgy Sweets";
+    src: url("../font/Squidgy\ Sweets.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Sitka Banner";
+    src: url("../font/Sitka\ Banner.woff") format("woff");
+}
+
+
+
 /* /* tips footer */
 html {
     position: relative;
 }
 
 body {
-    
+    color: white;
+    background-color: #3C1809;
+    min-height: 600px;
     margin-top: 100px;
     margin-bottom: 150px;
 }
@@ -24,6 +38,8 @@ footer {
     position: relative;
     z-index: 99;
     padding-top: 10px;
+    font-family: 'Squidgy Sweets';
+    font-size: 13px;
     
 }
 
@@ -135,20 +151,13 @@ svg#Facebook_white:hover {
     animation: rotating 2s linear infinite;
 }
 
-@font-face {
-    font-family: "Squidgy Sweets";
-    src: url("../font/Squidgy\ Sweets.woff") format("woff");
-}
+
 
 
 
 
 /* MAIN */
-body {
-    color: white;
-    background-color: #3C1809;
-    min-height: 600px;
-}
+
 
 .pink-color {
     color: #DE8D93;
@@ -176,7 +185,7 @@ svg {
 
 p {
     font-family: "Sitka Banner";
-    font-size: 16px;
+    font-size: 15px;
 }
 
 h1 {
@@ -196,10 +205,7 @@ hr {
     color: rgb(255, 255, 255);
 }
 
-.footer p {
-    font-family: 'Squidgy Sweets';
-    font-size: 13px;
-}
+
 
 .nav-item a {
     font-family: "Squidgy Sweets";
